@@ -1,0 +1,127 @@
+<!-- Authors CSD-1103 Group 3 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contact Us</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/design.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c5017c04fb.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="../image/logo-2.png" type="image/x-icon"> <!--for fav-icon-->
+
+
+</head>
+
+<body>
+    <!-- Header will contain logo and Nav bar -->
+    <header>
+        <a href="../home.html"><img src="../image/logo-2.png" class="logo" alt="a logo"></a>
+        <nav class="navbar">
+            <div class="navbar-container ">
+                <input type="checkbox">
+                <div class="hamburger-lines">
+                    <span class="line line1"> </span>
+                    <span class="line line2"> </span>
+                    <span class="line line3"> </span>
+                </div>
+                <ul class="nav_links nav_links_desktop">
+                    <li><a href="../home.html">Home</a></li>
+                    <li><a href="./About.html">About</a></li>
+                    <li><a href="./services.html">Rooms</a></li>
+                    <li><a href="./Amenities.html">Amenities</a></li>
+                    <li><a href="./Events.html">Events</a></li>
+                    <li><a class="booking" href="./booking.html">Booking</a></li>
+                </ul>
+            </div>
+        </nav>
+        <form class="cta"> 
+            <button type="submit"  formaction="booking.html">Booking</button>
+        </form>
+    </header>
+    <main>
+        <div class="headline-container">
+            <!-- Horizontal Line and Introduction -->
+            <div class="horizontal-line">
+                <div class="introduction">
+                    <h1>Contact Us</h1>
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="contact">
+                <div class="content">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h2>Location</h2>
+                    <p>3100 Vinland station St.<br>Toronto, ON, L0R 2E6</p>
+                    <a href="https://maps.app.goo.gl/HoNxUh9Vfeshcs3Q9">View on Google Maps</a>
+                </div>
+                <div class="content">
+                    <i class="fa-solid fa-phone"></i>
+                    <h2>Contact</h2>
+                    <p>(416) 362-1777 <br> From 8am to 5 pm<br>Email Us</p>
+                    <a href="#contact_form">Contact Form</a>
+                </div>
+                <div class="content">
+                    <i class="fa-solid fa-hotel"></i>
+                    <h2>Booking</h2>
+                    <p>Book a room</p>
+                    <a href="./booking.html">Book</a>
+                </div>
+            </div>
+        </div>
+        <!--for the box which has map and contact us form-->      
+        <div class="contact-in">
+            <div class="contact_map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2909.0830656678527!2d-79.38173532430477!3d43.186767882474086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d3532ca3065fdb%3A0x3fdcd46160d31dd3!2sLake%20House%20Restaurant!5e0!3m2!1sen!2sca!4v1701230378939!5m2!1sen!2sca" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div id="contact_form" class="contact_form">
+                <h1>Contact Us</h1>
+                <form>
+                    <input type="text" name="fname" placeholder="Enter first Name" class="contact_form-txt" required>
+                    <input type="text" name="lname" placeholder="Enter last Name" class="contact_form-txt" required>
+                    <input type="email" placeholder="Email" class="contact_form-txt" required>
+                    <textarea placeholder="How can we help you?" class="contact_form-textarea" required ></textarea>
+                    <input type="Submit" name="submit" class="contact_form-btn">
+                </form>    
+            </div>
+        </div>
+    </main>
+    <footer>
+    <!-- Footer Section -->
+        <div class="footer-container">
+            <div class="social-icons">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="footer-nav">
+                <ul>
+                    <li><a href="../home.html">Home</a></li>
+                    <li><a href="booking.html">Book Now</a></li>
+                    <li><a href="About.html">About <span class="footer-span">Us</span></a></li>
+                    <li><a href="contact.html">Contact<span class="footer-span">Us</span></a></li>
+                    <li><a href="Group-3.html" target="_blank">Our<span class="footer-span">Team</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright &copy;2023; Designed by <span class="designer"><a href="./Group-3.html"
+                        target="_blank">group-3</a></span>
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
