@@ -2,112 +2,148 @@
 
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Booking</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../css/design.css">
-    <script src="https://kit.fontawesome.com/c5017c04fb.js" crossorigin="anonymous"></script>
-    <link rel="icon" href="../image/logo-2.png" type="image/x-icon"> <!--for fav-icon-->
-</head>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../css/design.css" />
+    <script
+      src="https://kit.fontawesome.com/c5017c04fb.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="../image/logo-2.png" type="image/x-icon" />
+    <!--for fav-icon-->
+  </head>
 
-<body>
+  <body>
     <!-- Header will contain logo and Nav bar -->
     <header>
-        <a href="../home.html"><img src="../image/logo-2.png" class="logo" alt="a logo"></a>
-        <nav class="navbar">
-            <div class="navbar-container ">
-                <input type="checkbox">
-                <div class="hamburger-lines">
-                    <span class="line line1"> </span>
-                    <span class="line line2"> </span>
-                    <span class="line line3"> </span>
-                </div>
-                <ul class="nav_links nav_links_desktop">
-                    <li><a href="../home.html">Home</a></li>
-                    <li><a href="./About.html">About</a></li>
-                    <li><a href="./services.html">Rooms</a></li>
-                    <li><a href="./Amenities.html">Amenities</a></li>
-                    <li><a href="./Events.html">Events</a></li>
-                </ul>
-            </div>
-        </nav>
-        <form class="cta"> 
-            <button type="submit"  formaction="contact.html">Contact</button>
-        </form>
+      <a href="../index.html"
+        ><img src="../image/logo-2.png" class="logo" alt="a logo"
+      /></a>
+      <nav class="navbar">
+        <div class="navbar-container">
+          <input type="checkbox" />
+          <div class="hamburger-lines">
+            <span class="line line1"> </span>
+            <span class="line line2"> </span>
+            <span class="line line3"> </span>
+          </div>
+          <ul class="nav_links nav_links_desktop">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./About.html">About</a></li>
+            <li><a href="./services.html">Rooms</a></li>
+            <li><a href="./Amenities.html">Amenities</a></li>
+            <li><a href="./Events.html">Events</a></li>
+          </ul>
+        </div>
+      </nav>
+      <form class="cta">
+        <button type="submit" formaction="contact.html">Contact</button>
+      </form>
     </header>
     <main>
-        <section class="headline-container">
-            <!-- Horizontal Line and Introduction -->
-            <div class="horizontal-line">
-                <div class="introduction">
-                    <h1>Booking</h1>
-                </div>
-            </div>
-        </section>
-
-        <!-- Booking For with Validation -->
-        <div class="container">
-            <form action="#" method="post">
-                <h2>Hotel Booking Form</h2>
-
-                <label for="name">Name:</label><!-- this is mandatory -->
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Email:</label><!-- this is mandatory -->
-                <input type="email" id="email" name="email" required>
-
-                <label for="check-in">Check-in Date:</label><!-- this is mandatory -->
-                <input type="date" id="check-in" name="check-in" required>
-
-                <label for="check-out">Check-out Date:</label><!-- this is mandatory -->
-                <input type="date" id="check-out" name="check-out" required>
-
-                <label for="room-type">Room Type:</label><!-- this is mandatory -->
-                <select id="room-type" name="room-type">
-                    <option value="single">Standard Room</option>
-                    <option value="double">Suite Room </option>
-                    <option value="suite">Penthouse Room</option>
-                </select>
-
-                <label for="special-requests">Special Requests:</label><!-- this is optional -->
-                <textarea id="special-requests" name="special-requests" rows="4"></textarea>
-
-                <input type="submit" value="Book Now">
-                <input type="reset" name="Reset" value="Reset">
-            </form>
+      <section class="headline-container">
+        <!-- Horizontal Line and Introduction -->
+        <div class="horizontal-line">
+          <div class="introduction">
+            <h1>Booking</h1>
+          </div>
         </div>
+      </section>
+
+      <!-- Booking For with Validation -->
+      <div class="container">
+        <form action="#" method="post">
+          <h2>Hotel Booking Form</h2>
+
+          <label for="name">Name:</label
+          ><!-- this is mandatory -->
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label
+          ><!-- this is mandatory -->
+          <input type="email" id="email" name="email" required />
+
+          <label for="check-in">Check-in Date:</label
+          ><!-- this is mandatory -->
+          <input type="date" id="check-in" name="check-in" required />
+
+          <label for="check-out">Check-out Date:</label
+          ><!-- this is mandatory -->
+          <input type="date" id="check-out" name="check-out" required />
+
+          <label for="room-type">Room Type:</label
+          ><!-- this is mandatory -->
+          <select id="room-type" name="room-type">
+            <option value="single">Standard Room</option>
+            <option value="double">Suite Room</option>
+            <option value="suite">Penthouse Room</option>
+          </select>
+
+          <label for="special-requests">Special Requests:</label
+          ><!-- this is optional -->
+          <textarea
+            id="special-requests"
+            name="special-requests"
+            rows="4"
+          ></textarea>
+
+          <input type="submit" value="Book Now" />
+          <input type="reset" name="Reset" value="Reset" />
+        </form>
+      </div>
     </main>
     <footer>
-    <!-- Footer Section -->
-        <div class="footer-container">
-            <div class="social-icons">
-                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-            </div>
-            <div class="footer-nav">
-                <ul>
-                    <li><a href="../home.html">Home</a></li>
-                    <li><a href="booking.html">Book Now</a></li>
-                    <li><a href="About.html">About <span class="footer-span">Us</span></a></li>
-                    <li><a href="contact.html">Contact<span class="footer-span">Us</span></a></li>
-                    <li><a href="Group-3.html" target="_blank">Our<span class="footer-span">Team</span></a></li>
-                </ul>
-            </div>
+      <!-- Footer Section -->
+      <div class="footer-container">
+        <div class="social-icons">
+          <a href="https://www.facebook.com/" target="_blank"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="https://www.instagram.com/" target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://www.twitter.com/" target="_blank"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+          <a href="https://www.linkedin.com/" target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://www.youtube.com/" target="_blank"
+            ><i class="fa-brands fa-youtube"></i
+          ></a>
         </div>
-        <div class="footer-bottom">
-            <p>Copyright &copy;2023; Designed by <span class="designer"><a href="./Group-3.html"
-                        target="_blank">group-3</a></span>
-            </p>
+        <div class="footer-nav">
+          <ul>
+            <li><a href="../home.html">Home</a></li>
+            <li><a href="booking.html">Book Now</a></li>
+            <li>
+              <a href="About.html">About <span class="footer-span">Us</span></a>
+            </li>
+            <li>
+              <a href="contact.html"
+                >Contact<span class="footer-span">Us</span></a
+              >
+            </li>
+            <li>
+              <a href="Group-3.html" target="_blank"
+                >Our<span class="footer-span">Team</span></a
+              >
+            </li>
+          </ul>
         </div>
-
+      </div>
+      <div class="footer-bottom">
+        <p>
+          Copyright &copy;2023; Designed by
+          <span class="designer"
+            ><a href="./Group-3.html" target="_blank">group-3</a></span
+          >
+        </p>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
