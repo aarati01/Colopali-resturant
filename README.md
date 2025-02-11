@@ -36,9 +36,7 @@ A responsive website designed to showcase the unique fusion of Nepali and Colomb
 - **Font Family**: Montserrat (Google Fonts)
 - **Weights**: Regular, Medium, Bold
 
-### Site Map
-![Site Map](https://via.placeholder.com/600x400?text=Webbed+Site+Map+Structure)
-- **Webbed Structure**: All pages interlinked for intuitive navigation.
+
 
 ## 🛠 Technologies Used
 - **HTML5** & **CSS3**
@@ -51,6 +49,6 @@ A responsive website designed to showcase the unique fusion of Nepali and Colomb
    ```bash
    git clone https://github.com/yourusername/colopalli-resort.git
 
-
+![alt text](image-2.png)
 ![alt text](image.png)
 ![alt text](image-1.png)
