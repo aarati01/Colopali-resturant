@@ -1,6 +1,5 @@
 # Colopalli Resort & Spa Website
 
-![Colopalli Resort & Spa Banner](https://via.placeholder.com/1200x400?text=Colopalli+Resort+%26+SPA+Banner)
 
 A responsive website designed to showcase the unique fusion of Nepali and Colombian culture at Colopalli Resort & Spa. Built with a mobile-first approach, this site highlights accommodations, amenities, events, and booking functionalities.
 
